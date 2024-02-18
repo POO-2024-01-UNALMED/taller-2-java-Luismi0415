@@ -9,8 +9,11 @@ public class Motor {
 		this.registro = registro;
 	}
 	public void asignarTipo(String tipo) {
-		if(tipo.equalsIgnoreCase("electrico")||tipo.equalsIgnoreCase("gasolina"));
-		this.tipo= tipo;
+		if(tipo.equalsIgnoreCase("electrico")||tipo.equalsIgnoreCase("gasolina")) {
+			this.tipo=tipo;
+		}
+	
+		
 	}
 
 }
